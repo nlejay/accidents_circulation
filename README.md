@@ -14,10 +14,12 @@ Les données sont disponibles sur le site [https://www.data.gouv.fr/fr/](https:/
 - le fichier *vehicules* contient les informations sur les véhicules impliqués dans l'accident
 - le fichier *usagers* contient les informations sur les personnes impliquées dans l'accident
 
-L'ensemble du projet est codé en python et contient deux notebooks :
+L'ensemble du projet est codé en python et contient trois notebooks :
 
-- le premier appelé *acc_route_import_concat.ipynb* dans lequel j'ai importé tous les fichiers de données et je les ai concaténés pour obtenir uniquement 4 fichiers (*caracteristiques*, *lieux*, *vehicules* et *usagers*), chacun contenant toutes les années de 2005 à 2021
-- le deuxième qui regroupe les travaux sur le jeu de données, y compris le nettoyage.
+- Le premier appelé *acc_route_import_concatenation.ipynb* dans lequel j'ai importé tous les fichiers de données et je les ai concaténés pour obtenir uniquement 4 fichiers (*caracteristiques*, *lieux*, *vehicules* et *usagers*), chacun contenant toutes les années de 2005 à 2021.
+- Le deuxième appelé *accidents_route_nettoyage.ipynb* contient les opérations de nettoyage des données.
+- Le dernier appelé *projet_acc_route.ipynb* contient tout le travail effectué sur ce jeu de données.
+
 
 ## Installation
 

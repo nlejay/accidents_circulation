@@ -1,0 +1,9 @@
+pandas
+numpy
+missingno
+upsetplot
+matplotlib
+seaborn
+pingouin
+statsmodels
+scipy
