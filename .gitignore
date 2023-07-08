@@ -1,5 +1,3 @@
-src/*.csv
-*.png
-*.PNG
-*.jpg
-*.JPG
+src/*
+!src/*.pdf
+img/*
